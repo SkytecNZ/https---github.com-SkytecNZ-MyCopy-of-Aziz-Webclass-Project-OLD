@@ -20,12 +20,6 @@ app.get("/welcome", (req, res, next) => {
   res.send("<h1 style='color:blue;'>Welcome</h1>")
 })
 
-
-
-// app.get('/', (req, res) => {
-//   res.send('Hello World!')
-// })
-
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Old version of the Web Page app is listening on port ${port}`)
 })
